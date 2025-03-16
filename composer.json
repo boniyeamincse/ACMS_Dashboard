@@ -1,5 +1,11 @@
 {
-    "name": "yourusername/acms-dashboard",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/yourusername/some-package"
+        }
+    ],
+    "name": "boniyeamincse/acms-dashboard",
     "description": "Admit Card Management System (ACMS) Admin Dashboard",
     "type": "project",
     "require": {
@@ -8,12 +14,12 @@
     },
     "autoload": {
         "psr-4": {
-            "YourNamespace\\ACMSDashboard\\": "src/"
+            "BoniyeaminCSE\\ACMSDashboard\\": "src/"
         }
     },
     "scripts": {
         "post-install-cmd": [
-            "YourNamespace\\SomeClass::someMethod"
+            "BoniyeaminCSE\\SomeClass::someMethod"
         ]
     }
 }
